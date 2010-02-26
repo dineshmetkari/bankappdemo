@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center_horizontal">
+
+	<LinearLayout
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_margin="2dip">
+	
+		<LinearLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"  
+		android:gravity="right"
+		android:layout_margin="2dip">
+				<TextView
+				android:text="Agence" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textSize="14sp"/>
+				<EditText
+				android:text="" 
+				android:id="@+id/AgenceEdit"
+				android:layout_height="wrap_content" 
+				android:layout_width="110dip" 
+				android:inputType="phone"
+				android:singleLine="true"/>
+		</LinearLayout>		
+	
+		<LinearLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="right"
+		android:layout_margin="2dip">
+			<TextView
+			android:text="Compte/Clé" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="14sp"/>
+			<EditText
+			android:text="" 
+			android:id="@+id/CompteEdit"
+			android:layout_height="wrap_content" 
+			android:layout_width="75dip"
+			android:singleLine="true"
+			android:inputType="phone"
+			android:nextFocusDown="@+id/CompteEditkey"/>	
+			<EditText
+			android:text="" 
+			android:id="@+id/CompteEditkey"
+			android:layout_height="wrap_content" 
+			android:layout_width="35dip"
+			android:maxLength="1"
+			android:singleLine="true"
+			android:inputType="textCapCharacters"/>	
+		</LinearLayout>	
+		
+		<CheckBox
+		android:text=" Sauver"
+		android:id="@+id/SaveAccount"
+		android:checked="false"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/CompteLabel"/>
+	</LinearLayout>		
+
+	<LinearLayout
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_margin="2dip"
+	android:layout_marginTop="20dip">
+
+		<LinearLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+			<TextView
+			android:text="Mot de passe" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="14sp"/>
+			<EditText
+			android:text="" 
+			android:id="@+id/PassEdit"
+			android:layout_height="wrap_content" 
+			android:layout_width="110dip"
+			android:password="true" 
+			android:inputType="phone"
+			android:singleLine="true"/>
+		</LinearLayout>
+		
+		<CheckBox
+		android:text=" Sauver"
+		android:id="@+id/SavePass"
+		android:checked="false"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"/>	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_margin="2dip">
+		<Button
+		android:text="OK"
+		android:id="@+id/ConfigAllSave"
+		android:layout_width="80dip" 
+		android:layout_height="wrap_content"/>
+			
+		<Button
+		android:text="Annuler"
+		android:id="@+id/Cancel"
+		android:layout_width="80dip" 
+		android:layout_height="wrap_content"/>
+	</LinearLayout>
+				
+</LinearLayout>

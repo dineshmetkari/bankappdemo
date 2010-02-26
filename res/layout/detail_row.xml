@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="right"
+    android:background="#fff"
+    android:paddingRight="2dip">
+    
+	<TextView
+		android:id="@+id/detailDate"
+		android:layout_width="50dip"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:textSize="15sp"
+		android:gravity="left"
+		android:textStyle="normal"
+		android:text="DATE"
+		android:padding="2dip"
+		android:textColor="#115"
+	/>
+	<TextView
+		android:id="@+id/detailIntitule"
+		android:layout_width="160dip"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:gravity="left"
+		android:textSize="15sp"
+		android:textStyle="normal"
+		android:text="INTITULE"
+		android:padding="2dip"
+		android:textColor="#115"
+	/>
+	<TextView
+		android:id="@+id/detailMontant"
+		android:layout_width="75dip"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:textSize="15sp"
+		android:gravity="right"
+		android:textStyle="normal"
+		android:text="Montant"
+		android:paddingTop="2dip"
+		android:paddingBottom="2dip"
+		android:paddingLeft="2dip"
+		android:paddingRight="4dip"
+		android:textColor="#115"
+
+	/>
+</RelativeLayout> 
+
