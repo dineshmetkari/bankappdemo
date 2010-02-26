@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:layout_margin="2dip">
+
+	<LinearLayout
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_marginTop="20dip"
+	android:layout_margin="2dip">
+
+		<LinearLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_margin="2dip">
+			<TextView
+			android:text="Mot de passe" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="14sp"
+			android:layout_margin="2dip"/>
+			<EditText
+			android:text="" 
+			android:id="@+id/PassEdit1"
+			android:layout_height="wrap_content" 
+			android:layout_width="110dip"
+			android:password="true" 
+			android:inputType="phone"
+			android:singleLine="true"
+			android:layout_margin="2dip"/>
+		</LinearLayout>
+		
+		<CheckBox
+		android:text=" Sauver"
+		android:id="@+id/SavePass1"
+		android:checked="false"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:layout_margin="2dip"/>	
+	</LinearLayout>
+
+	<LinearLayout
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_margin="2dip">
+		<Button
+		android:text="OK"
+		android:id="@+id/ConfigPass"
+		android:layout_width="80dip" 
+		android:layout_height="wrap_content"
+		android:layout_margin="2dip"/>
+		
+		<Button
+		android:text="Annuler"
+		android:id="@+id/Cancel1"
+		android:layout_width="80dip" 
+		android:layout_height="wrap_content"
+		android:layout_margin="2dip"/>
+	</LinearLayout>
+		
+</LinearLayout>

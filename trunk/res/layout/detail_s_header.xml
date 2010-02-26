@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="#fff"
+  android:padding="3dip"  
+  android:paddingTop="5dip"
+  android:paddingBottom="5dip">
+  	<TextView
+		android:id="@+id/detail_s_label"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:textSize="15sp"
+		android:gravity="left"
+		android:textStyle="normal"
+		android:text="COMPTE"
+		android:background="#eee"
+		android:textColor="#003366"		
+	/>
+</LinearLayout>
