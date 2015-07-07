@@ -1,0 +1,2 @@
+Sample application that shows how to retrieve a website over HTTPS, parse the data and display data in an android application.
+As an example, this retrives the data of the french bank named LCL aka "Le crédit lyonnais"
